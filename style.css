@@ -1,0 +1,38 @@
+html {
+    background-color: #1f1f1f;
+}
+
+.welcome {
+    font-family: sans-serif;
+    color: #777;
+    text-align: center;
+    font-size: 250%;
+}
+
+.welcome-paragraph {
+    font-family: sans-serif;
+    color: #777;
+    text-align: center;
+    padding-right: 200px;
+    padding-left: 200px;
+    font-size: 120%;
+}
+
+a:link {
+    color: #5d8ef8;
+    text-decoration: none;
+  }
+
+a:visited {
+    color: #5d8ef8;
+    text-decoration: none;
+}
+
+.aboutme {
+    font-family: sans-serif;
+    color: #777;
+    text-align: center;
+    padding-right: 200px;
+    padding-left: 200px;
+    font-size: 200%;
+}
