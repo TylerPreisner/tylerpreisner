@@ -1,0 +1,18 @@
+.links {
+    font-family: 'Roboto Slab';
+    color: #777;
+    text-align: center;
+    padding-right: 200px;
+    padding-left: 200px;
+    font-size: 200%;
+}
+
+.links a:link {
+    color: #5d8ef8;
+    text-decoration: none;
+  }
+
+.links a:visited {
+    color: #5d8ef8;
+    text-decoration: none;
+}
