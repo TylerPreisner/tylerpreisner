@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab');
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #17171a;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #272727;
+    padding: 10px;
+    box-shadow: 50px 50px 50px #ffffff;
+}
+
+.buttons {
+    position: relative;
+    width: auto;
+    flex-grow: 0.5;
+    text-align: center;
+}
+
+.navbar ul {
+    margin: 0;
+}
+
+.navbar .two {
+    display: block;
+    list-style: none;
+}
+
+.one {
+    display: inline-flex;
+    list-style: none;
+}
+
+
+.navbar a {
+    display: inline-flex;
+    padding: 0.5em;
+    color: #8a8a8a;
+    text-decoration: 0;
+    justify-content: space-between;
+}
+
+
+.main-header nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-family: 'Roboto Slab';
+    font-size: 150%;
+    font-weight: bold;
+    background-color:#1E1E1E;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.40);
+}
+
+.main-header li {
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: rgb(214, 214, 214, 1);
+    border-radius: 5px;
+}
+
+.name {
+    top: 0px;
+    position: sticky;
+    color: #8a8a8a;
+    font-size: 1px;
+    font-weight: bolder;
+    flex-shrink: 1;
+}
+
+.subname {
+    top: 45px;
+    left: 15px;
+    position: absolute;
+    color: #8a8a8a;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.active {
+    text-underline-offset: 10px;
+    color: #8a8a8a;
+    text-decoration-line: underline;
+}
+
+
+ul.dropdown {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul.dropdown a:hover {
+    background: white;
+    display: contents;
+}
+
+li:hover ul.dropdown {
+    display: contents;
+}

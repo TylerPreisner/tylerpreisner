@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tyler Preisner</title>
+    <link rel="stylesheet" href="/css/test.css">
+    <link rel="stylesheet" href="/css/aboutme.css">
+  </head>
+  <body>
+    <!--Header-->
+    <header class="main-header">
+      <nav class="navbar">
+        <div class="name">Tyler Preisner</div>
+        <div class="subname">IT student and job seeker</div>
+        <div></div>
+        <div class="buttons">
+            <ul>
+              <li id="a"><a href="/index.html">HOME</a></li>
+              <li id="a" id="a" class="active"><a href="">POSTS</a>
+                  <ul class="dropdown">
+                    <li><a href="walkthroughs.html">Walkthroughs</a></li>
+                    <li><a href="homelab.html">Homelab</a></li>
+                  </ul>
+              </li>
+              <li id="a"><a href="/aboutme.html">ABOUT</a></li>
+              <li id="a"><a href="/links.html">LINKS</a></li>
+            </ul>
+        </div>
+        <div></div>
+      </nav>
+    </header>
+    <h1 class="aboutme">My Homelab</h1>
+    <p class="aboutme-paragraph">My homelab is running off of a Dell Optiplex that I bought used with an I7-6700 and 32gb of ram that is running proxmox to serve all my virtual machine needs. 
+        I have two networks running on proxmox, the first that is on my home network that has proxmox, a minecraft server, and Pfsense. 
+        Behind Pfsense is my virtual network that I use to play around with all the machines and tools that I am interested in, along with attempting to simulate a somewhat corporate network.
+         Putting good practice into vlans and keeping the network segmented for better security, performance, and containment. On that virtual network I have an Active Directory environment, SOC environment, and a Malware Analysis environment.
+    </p>
+  </body>
+</html>
