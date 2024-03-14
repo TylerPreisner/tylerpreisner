@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+
+
+html body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Slab", sans-serif;
+    height: auto;
+}
+
+
+.toc {
+    margin-top: 100px;
+    margin-right: 10px;
+    position: sticky;
+    top: 150px;
+    width: 250px;
+    height: auto;
+    float: right;
+    background-color: #272727;
+    border-radius: 10px;
+    border: 1px solid #505050;
+    color: #8a8a8a;
+}
+
+.toc h2 {
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid #505050;
+}
+
+.toc a {
+    text-decoration: none;
+    color: #8a8a8a;
+    padding: 0;
+    font-size: 15px;
+
+}
+
+.toc a:hover {
+    color: #90cdff;
+}
+
+.toc ul {
+    width: auto;
+}
+
+.toc li {
+    list-style: none;
+    display: flex;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.tocfooter {
+    width: auto;
+    height: 20px;
+}
+
+
+.blogpost {  
+    margin-top: 100px;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    font-family: "Roboto Slab", sans-serif;
+    color: #8a8a8a;
+}
+
+
+
+.blogpost h1 {
+    text-align: left;
+}
+
+
+.back {
+    padding-left: 20px;
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #90cdff;
+}
+
+.back a:visited {
+    color: #90cdff;
+}
+
+.section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.section h1 {
+    padding-bottom: 10px;
+}
+
+.codeblock {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    background-color: #111111;
+    border: 1px solid #505050;
+    border-radius: 15px;
+    font-family: "Fira Code", sans-serif;
+}
+
+.codeblock-header {
+    text-align: center;
+    padding-top: 2px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.codeblock-text {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+.codeblock .shell {
+    padding-right: 8px;
+}
+
+.footer {
+    width: auto;
+    height: 50px;
+    margin-top: 50px;
+    border-top: 1px solid #505050;
+}
+
+.links a:link {
+    color: #5d8ef8;
+    text-decoration: none;
+  }
+
+.links a:visited {
+    color: #5d8ef8;
+    text-decoration: none;
+}

@@ -1,47 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab');
+
 html {
     position: relative;
     height: auto;
     width: auto;
 }
 
-body .posts {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.blog {
-    margin: 0;
-    justify-content:left
+.container {
+    margin-top: 50px;
 }
 
 .row {
-    display: flex;
-    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
     justify-content: space-evenly;
+    display: flex;
 }
-
 
 .card {
-    position: relative;
-    margin-top: 0px;
-    width: 30%;
     height: 150px;
-    background-color: #1E1E1E;
+    width: 350px;
+    background-color:#272727;
     border-radius: 5px;
-    border-style: solid;
-    border-width: 0.0001rem;
-    border-color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    border: 0.001rem solid;
+    border-color: #6a6a6a;
 
 }
 
-.blog a {
-    text-align: center;
-    text-decoration: none;
+.card-title  {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     color: #8a8a8a;
 }
 
+.card-text {
+    color: #8a8a8a;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.card a {
+    text-decoration: none;
+    text-align: center;
+}
 a.card-click {
     display: block;
     height: 100%;
